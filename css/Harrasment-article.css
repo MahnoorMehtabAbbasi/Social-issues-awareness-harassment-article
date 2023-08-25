@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--background, #E9EBEB);
+  }
+  .registration-form {
+    background-color: #E9EBEB;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 900px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .navbar-heading {
+    margin: 0;
+    color: black;
+  }
+  .navbar-icon {
+    color: black;
+  }
+  .content-section {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  a
+  {
+    color: var(--bold-pink, var(--pink, #EC407A));
+  }
+  .save-later
+  {
+    color: var(--bold-pink, var(--pink, #EC407A));
+  }
+  .container .row .col.text-center {
+    background-color: #f8f9fa;
+    padding: 20px;
+    
+}
+  .footer-icon
+    {
+    max-width: 890px;
+    
+    }
+    @media (max-width: 576px) {
+  .registration-form
+   {
+    margin: 0px;
+    padding: 10px 10px 0px 10px; 
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+   }
+  
+   h1 {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 14px;
+   
+    
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  .footer-icon
+   {
+    padding: 0px;
+   }
+}
